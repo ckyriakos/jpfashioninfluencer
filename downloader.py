@@ -1,4 +1,4 @@
-from pytube import YouTube
+from pytubefix import YouTube
 import os
 
 def download_youtube_video(url, output_path="videos", filename=None, resolution="720p"):
@@ -23,7 +23,7 @@ def download_youtube_video(url, output_path="videos", filename=None, resolution=
     return os.path.join(output_path, filename)
 
 # Example usage
-if __name__ == "__main__":
-    video_url = "https://www.youtube.com/watch?v=your_video_id"
-    download_youtube_video(video_url)
+    #if __name__ == "__main__":
+    #    video_url = "https://www.youtube.com/watch?v=your_video_id"
+#    download_youtube_video(video_url)
 
